@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .cellular {
@@ -403,6 +404,10 @@ body {
   background-color: green;
 }
 
+.btn-green:enabled {
+  background-color: #36b37f;
+}
+
 .about-me {
   display: flex;
   flex-direction: column;
@@ -412,7 +417,7 @@ body {
   position: absolute;
   height: 1625px;
   left: 60px;
-  top: 4050px;
+  top: 4150px;
 }
 
 .text-about-me {
@@ -486,6 +491,14 @@ body {
   border: 1px solid blue;
   text-decoration: underline;
   text-decoration-color: blue;
+}
+
+.get-my-resume:active {
+  background-color: green;
+}
+
+.get-my-resume:enabled {
+  background-color: #36b37f;
 }
 
 .language-cards {
