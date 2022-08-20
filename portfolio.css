@@ -247,7 +247,7 @@ body {
   row-gap: 24px;
   padding-top: 62px;
   align-items: center;
-  width: 331px;
+  padding-left: 64px;
 }
 
 .card-work-1 {
@@ -304,7 +304,7 @@ body {
 }
 
 .ruby {
-  width: 103px;
+  width: 120px;
   padding: 8px 12px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -378,8 +378,9 @@ body {
   width: 122px;
   height: 48px;
   bottom: 8px;
-  background: #36b37f;
+  background: #36B37F;
   border-radius: 4px;
+  border: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -389,6 +390,12 @@ body {
   letter-spacing: 0.03em;
   color: #fff;
   margin: 0;
+}
+
+.btn-green:hover {
+  border: 1px solid blue;
+  text-decoration: underline;
+  text-decoration-color: blue;
 }
 
 .about-me {
@@ -459,6 +466,7 @@ body {
   height: 48px;
   background: #36b37f;
   border-radius: 4px;
+  border: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -468,6 +476,12 @@ body {
   letter-spacing: 0.03em;
   color: #fff;
   margin: 0;
+}
+
+.get-my-resume:hover {
+  border: 1px solid blue;
+  text-decoration: underline;
+  text-decoration-color: blue;
 }
 
 .language-cards {
@@ -699,9 +713,9 @@ body {
 
 .frame-20 {
   padding-top: 12px;
-  padding-left: 12px;
+  padding-left: 20px;
   list-style: none;
-  width: 79px;
+  width: 90px;
   height: 16px;
   background: #fff;
   border-radius: 8px;
