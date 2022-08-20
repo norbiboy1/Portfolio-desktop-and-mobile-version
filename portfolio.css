@@ -6,6 +6,9 @@ body {
 }
 
 .cellular {
+  top: 0;
+  left: 60px;
+  position: absolute;
   height: 44px;
   display: flex;
   flex-direction: row;
@@ -35,6 +38,9 @@ body {
 }
 
 .hamburger-menu {
+  position: absolute;
+  left: 60px;
+  top: 50px;
   height: 48px;
   display: flex;
   flex-direction: row;
@@ -94,7 +100,7 @@ body {
   gap: 58px;
   position: absolute;
   height: 726px;
-  left: 0;
+  left: 60px;
   top: 92px;
 }
 
@@ -210,7 +216,6 @@ body {
 
 .work {
   position: absolute;
-  width: 331px;
   height: 2972px;
   left: 0;
   gap: 24px;
@@ -304,7 +309,6 @@ body {
 }
 
 .ruby {
-  width: 120px;
   padding: 8px 12px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -319,7 +323,6 @@ body {
 }
 
 .css {
-  width: 45px;
   padding: 8px 12px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -334,7 +337,6 @@ body {
 }
 
 .javascript {
-  width: 82px;
   padding: 8px 12px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -349,7 +351,6 @@ body {
 }
 
 .html {
-  width: 51px;
   padding: 8px 12px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -398,6 +399,10 @@ body {
   text-decoration-color: blue;
 }
 
+.btn-green:active {
+  background-color: green;
+}
+
 .about-me {
   display: flex;
   flex-direction: column;
@@ -405,9 +410,8 @@ body {
   padding-top: 64px;
   gap: 58px;
   position: absolute;
-  width: 375px;
   height: 1625px;
-  left: 0;
+  left: 60px;
   top: 4050px;
 }
 
@@ -547,7 +551,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding-left: 0;
+  padding-left: 20px;
   margin: 0;
   gap: 8px;
   width: 271px;
@@ -558,7 +562,6 @@ body {
   padding-top: 12px;
   padding-left: 12px;
   list-style: none;
-  width: 89px;
   height: 20px;
   background: #fff;
   border-radius: 8px;
@@ -575,7 +578,6 @@ body {
   padding-top: 12px;
   padding-left: 12px;
   list-style: none;
-  width: 55px;
   height: 20px;
   background: #fff;
   border-radius: 8px;
@@ -592,7 +594,6 @@ body {
   padding-top: 12px;
   padding-left: 12px;
   list-style: none;
-  width: 53px;
   height: 20px;
   background: #fff;
   border-radius: 8px;
@@ -609,7 +610,6 @@ body {
   padding-top: 12px;
   padding-left: 12px;
   list-style: none;
-  width: 50px;
   height: 20px;
   background: #fff;
   border-radius: 8px;
@@ -681,6 +681,7 @@ body {
 }
 
 .frame-tags {
+  padding-left: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -697,7 +698,6 @@ body {
   padding-top: 12px;
   padding-left: 12px;
   list-style: none;
-  width: 60px;
   height: 16px;
   background: #fff;
   border-radius: 8px;
@@ -715,7 +715,6 @@ body {
   padding-top: 12px;
   padding-left: 20px;
   list-style: none;
-  width: 90px;
   height: 16px;
   background: #fff;
   border-radius: 8px;
@@ -733,7 +732,6 @@ body {
   padding-top: 12px;
   padding-left: 12px;
   list-style: none;
-  width: 39px;
   height: 16px;
   background: #fff;
   border-radius: 8px;
@@ -751,7 +749,6 @@ body {
   padding-top: 12px;
   padding-left: 12px;
   list-style: none;
-  width: 59px;
   height: 16px;
   background: #fff;
   border-radius: 8px;
@@ -769,7 +766,6 @@ body {
   padding-top: 12px;
   padding-left: 12px;
   list-style: none;
-  width: 57px;
   height: 16px;
   background: #fff;
   border-radius: 8px;
@@ -850,7 +846,6 @@ body {
   padding-top: 12px;
   padding-left: 12px;
   list-style: none;
-  width: 48px;
   height: 16px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -868,7 +863,6 @@ body {
   padding-top: 12px;
   padding-left: 12px;
   list-style: none;
-  width: 43px;
   height: 16px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -886,7 +880,6 @@ body {
   padding-top: 12px;
   padding-left: 12px;
   list-style: none;
-  width: 55px;
   height: 16px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -904,7 +897,6 @@ body {
   padding-top: 12px;
   padding-left: 12px;
   list-style: none;
-  width: 37px;
   height: 16px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -922,7 +914,6 @@ body {
   padding-top: 12px;
   padding-left: 12px;
   list-style: none;
-  width: 53px;
   height: 16px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
