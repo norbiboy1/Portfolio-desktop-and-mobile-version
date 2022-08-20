@@ -404,10 +404,6 @@ body {
   background-color: green;
 }
 
-.btn-green:enabled {
-  background-color: #36b37f;
-}
-
 .about-me {
   display: flex;
   flex-direction: column;
@@ -495,10 +491,6 @@ body {
 
 .get-my-resume:active {
   background-color: green;
-}
-
-.get-my-resume:enabled {
-  background-color: #36b37f;
 }
 
 .language-cards {
