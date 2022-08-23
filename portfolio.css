@@ -304,7 +304,8 @@ body {
   gap: 8px;
   padding: 0;
   margin: 0;
-  float: left;
+  display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -320,7 +321,6 @@ body {
   color: #3a4a42;
   border-radius: 4px;
   list-style: none;
-  float: left;
 }
 
 .css {
@@ -335,7 +335,6 @@ body {
   color: #3a4a42;
   border-radius: 4px;
   list-style: none;
-  float: left;
 }
 
 .javascript {
@@ -350,7 +349,6 @@ body {
   color: #3a4a42;
   border-radius: 4px;
   list-style: none;
-  float: left;
 }
 
 .html {
@@ -365,7 +363,6 @@ body {
   color: #3a4a42;
   border-radius: 4px;
   list-style: none;
-  float: left;
 }
 
 .button-frame {
@@ -933,4 +930,92 @@ body {
   background: #fff;
   border-radius: 8px;
   order: 5;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 64px 24px;
+  gap: 58px;
+  position: absolute;
+  height: 879px;
+  left: 30px;
+  top: 5800px;
+}
+
+.form-text {
+  gap: 24px;
+  height: 363px;
+  align-items: center;
+}
+
+.text-section {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172B4D;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  height: 330px;
+}
+
+input[type=text] {
+  height: 48px;
+  width: 327px;
+  border: 1px solid #D0D9D4;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+input placeholder {
+  height: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  align-items: center;
+  color: #6B778C;
+}
+
+.social-media-icon {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+  height: 20px;
+  left: 102.42px;
+  top: 800px;
+  margin: 0;
+  gap: 18px;
+}
+
+.social-media-icon > li {
+  list-style: none;
+}
+
+.supporting-text-2 {
+  position: absolute;
+  height: 189px;
+  top: 820px;
+  padding-left: 100px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526E;
 }
