@@ -304,7 +304,7 @@ body {
   gap: 8px;
   padding: 0;
   margin: 0;
-  float:left;
+  float: left;
   align-items: center;
 }
 
@@ -320,6 +320,7 @@ body {
   color: #3a4a42;
   border-radius: 4px;
   list-style: none;
+  float: left;
 }
 
 .css {
@@ -334,6 +335,7 @@ body {
   color: #3a4a42;
   border-radius: 4px;
   list-style: none;
+  float: left;
 }
 
 .javascript {
@@ -348,6 +350,7 @@ body {
   color: #3a4a42;
   border-radius: 4px;
   list-style: none;
+  float: left;
 }
 
 .html {
@@ -362,6 +365,7 @@ body {
   color: #3a4a42;
   border-radius: 4px;
   list-style: none;
+  float: left;
 }
 
 .button-frame {
