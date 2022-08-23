@@ -235,10 +235,16 @@
             <h2 class="text-section">I'm always <br> interested in <br> hearing about <br> new projects, so <br> if you'd like to <br> chat please get <br> in touch.</h2>
             <form action="https://formspree.io/f/myyvzkbz" method="post">
                 <label for="name">
-                    <input type="text" id="name" placeholder="Full name" maxlength="30">
+                    <input type="text" name="name" id="name" placeholder="Full name" maxlength="30" required>
                 </label>
-                <!-- kindly add the two inputs below this comment -->
-
+                <label for="email">
+                  <input type="email" name="email" id="email" class="input-cls" required
+                  placeholder="username@mail.com" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" />
+                </label>
+                <label for="message">
+                  <textarea class="input-cls" name="message" id="message" cols="48" rows="9" maxlength="500"
+                  placeholder="Enter text here" required></textarea>
+                </label>
                 <button type="submit" class="btn-green">Get in touch</button>
             </form>
         </div>

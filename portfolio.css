@@ -978,6 +978,24 @@ input[type=text] {
   padding-right: 16px;
 }
 
+input[type=email] {
+  height: 48px;
+  width: 327px;
+  border: 1px solid #D0D9D4;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#message {
+  height: 148px;
+  width: 327px;
+  border: 1px solid #D0D9D4;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 input placeholder {
   height: 18px;
   font-family: 'Inter';
