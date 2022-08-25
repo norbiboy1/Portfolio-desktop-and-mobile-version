@@ -1066,7 +1066,7 @@ input[type=email] {
 }
 
 .contact-form button[type=submit]:hover {
- background-color: green;
+  background-color: green;
 }
 
 /* Media queries for the desktop version breakthrough */
