@@ -1380,8 +1380,14 @@
     background: #ebf0ee;
     border: 1px solid #d0d9d4;
     border-radius: 8px;
+    transition-property: transform;
+    transition-duration: 1s;
   }
 
+  .desktop-image-cover:hover {
+    transform: scale(1.05);
+  }
+  
   .desktop-text-card-1 {
     display: flex;
     flex-direction: column;
@@ -1404,6 +1410,7 @@
     color: #172b4d;
     margin-bottom: 0;
   }
+
 
   .desktop-list-languages {
     display: flex;
