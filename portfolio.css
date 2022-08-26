@@ -1445,12 +1445,14 @@
     bottom: 8px;
     background: #36b37f;
     border-radius: 4px;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
   }
 
   .desktop-btn-green:hover {
     border: 1px solid blue;
     text-decoration: underline;
     text-decoration-color: blue;
+    background-color: blue;
   }
 
   .desktop-btn-green:active {
