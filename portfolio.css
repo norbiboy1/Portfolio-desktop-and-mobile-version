@@ -1100,6 +1100,10 @@
   .rect-42-image {
     display: none;
   }
+
+  footer {
+    display: none;
+  }
 }
 
 /* Media queries for the desktop version breakthrough */
@@ -1210,6 +1214,7 @@
     align-items: center;
     padding: 160px 0;
     gap: 24px;
+    width: 1440px;
   }
 
   .desktop-headline-first-text {
@@ -1378,7 +1383,7 @@
     padding: 0;
     margin-top: 0;
     gap: 4px;
-    width: 305px;
+    width: 360px;
     height: 32px;
   }
 
