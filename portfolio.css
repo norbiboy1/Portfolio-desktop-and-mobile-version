@@ -1108,14 +1108,13 @@
 
 /* Media queries for the desktop version breakthrough */
 
-@media only screen and (min-width: 768px) and (max-height: 3846px) {
+@media only screen and (min-width: 367px) and (max-height: 3846px) {
   html,
   body {
     position: relative;
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100vh;
+    max-width: 2063px;
     overflow-x: hidden;
     overflow-y: scroll;
   }
@@ -1142,13 +1141,13 @@
 
   .desktop-background-images {
     position: absolute;
-    width: 1472.8px;
+    width: 2063px;
     height: 1434.3px;
-    background: url('./images/desktop_version/frame_headline/Group-35.png') 40% 5% no-repeat, url('./images/desktop_version/frame_headline/Frame.png') 74% 1% no-repeat, url('./images/desktop_version/frame_headline/Group-38.png') 36% 8% no-repeat, url('./images/desktop_version/frame_headline/Group2.png') 1% 21% no-repeat, url('./images/desktop_version/frame_headline/Frame-big.png') 97% 17% no-repeat, url('./images/desktop_version/frame_headline/Group-37.png') 18% 58% no-repeat, url('./images/desktop_version/frame_headline/Frame-middle.png') 40% 50% no-repeat, url('./images/desktop_version/frame_headline/Frame-right.png') 75% 55% no-repeat;
+    background: url('./images/desktop_version/frame_headline/Group-35.png') 40% 5% no-repeat, url('./images/desktop_version/frame_headline/Frame.png') 74% 1% no-repeat, url('./images/desktop_version/frame_headline/Group-38.png') 36% 8% no-repeat, url('./images/desktop_version/frame_headline/Group2.png') 1% 21% no-repeat, url('./images/desktop_version/frame_headline/Frame-big.png') 100% 17% no-repeat, url('./images/desktop_version/frame_headline/Group-37.png') 18% 58% no-repeat, url('./images/desktop_version/frame_headline/Frame-middle.png') 40% 50% no-repeat, url('./images/desktop_version/frame_headline/Frame-right.png') 75% 55% no-repeat;
   }
 
   .header {
-    width: 1440px;
+    width: 2063px;
     height: 72px;
     display: flex;
     flex-direction: row;
@@ -1214,7 +1213,7 @@
     align-items: center;
     padding: 160px 0;
     gap: 24px;
-    width: 1440px;
+    width: 2063px;
   }
 
   .desktop-headline-first-text {
@@ -1300,7 +1299,7 @@
     align-items: center;
     padding: 300px 0;
     gap: 48px;
-    width: 1440px;
+    width: 2063px;
   }
 
   .desktop-recent-works {
@@ -1443,7 +1442,7 @@
     justify-content: center;
     padding: 80px 0;
     gap: 48px;
-    width: 1440px;
+    width: 2063px;
     background: url('./images/desktop_version/frame_headline/illustration-about-me-2-desktop.png') 1% 24% no-repeat, url('./images/desktop_version/frame_headline/illustration-about-me-1-desktop.png') 99% 1% no-repeat;
   }
 
@@ -1725,7 +1724,7 @@
     justify-content: center;
     padding: 80px 0;
     gap: 24px;
-    width: 1440px;
+    width: 2063px;
     height: 490px;
     background: url('./images/desktop_version/frame_headline/illustration-1-contact-form-desktop.png') 0% 90% no-repeat, url('./images/desktop_version/frame_headline/illustration-2-contact-form-desktop.png') 20% 80% no-repeat, url('./images/desktop_version/frame_headline/contact-form-illustratoin-3-desktop.png') 95% 100% no-repeat;
   }
@@ -1859,7 +1858,7 @@
     align-items: center;
     justify-content: center;
     padding: 0;
-    width: 1440px;
+    width: 2063px;
     gap: 20px;
   }
 
