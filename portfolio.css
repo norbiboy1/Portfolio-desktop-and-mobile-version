@@ -1136,80 +1136,35 @@
     display: none;
   }
 
-  .background-images-desktop {
+  .desktop-background-images {
     position: absolute;
     width: 1472.8px;
     height: 1434.3px;
-    left: 27px;
-  }
-
-  .desktop-frame {
-    position: absolute;
-    width: 220.22px;
-    left: 850px;
-  }
-
-  .desktop-group-38 {
-    position: absolute;
-    width: 66.76px;
-    left: 500px;
-    top: 93.89px;
-  }
-
-  .desktop-group-2 {
-    position: absolute;
-    width: 217px;
-    left: 10px;
-    top: 217.74px;
-  }
-
-  .desktop-frame-big {
-    position: absolute;
-    width: 382.6px;
-    left: 950px;
-    top: 136.74px;
-  }
-
-  .desktop-group-37 {
-    position: absolute;
-    width: 172.93px;
-    left: 300px;
-    top: 650.27px;
-  }
-
-  .desktop-frame-middle {
-    position: absolute;
-    width: 123.41px;
-    left: 530px;
-    top: 597.74px;
-  }
-
-  .desktop-frame-right {
-    position: absolute;
-    width: 232.22px;
-    left: 800px;
-    top: 650px;
-  }
-
-  .desktop-group-35 {
-    width: 1284.79px;
-    left: 71px;
-    top: -398px;
+    background: url('./images/desktop_version/frame_headline/Group-35.png') 40% 5% no-repeat, url('./images/desktop_version/frame_headline/Frame.png') 74% 1% no-repeat, url('./images/desktop_version/frame_headline/Group-38.png') 36% 8% no-repeat, url('./images/desktop_version/frame_headline/Group2.png') 1% 21% no-repeat, url('./images/desktop_version/frame_headline/Frame-big.png') 97% 17% no-repeat, url('./images/desktop_version/frame_headline/Group-37.png') 18% 58% no-repeat, url('./images/desktop_version/frame_headline/Frame-middle.png') 40% 50% no-repeat, url('./images/desktop_version/frame_headline/Frame-right.png') 75% 55% no-repeat;
   }
 
   .header {
-    position: absolute;
     width: 1440px;
     height: 72px;
-    left: 0;
-    top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 20px;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+  }
+
+  .menu-items1 {
+    list-style-type: none;
+    padding: 10px 12px;
+    gap: 10px;
+    width: 87px;
+    height: 40px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -1219,22 +1174,34 @@
     color: #344563;
   }
 
-  .menu-items1 {
-    list-style-type: none;
-    width: 63px;
-    height: 20px;
-  }
-
   .menu-items2 {
     list-style-type: none;
-    width: 45px;
-    height: 20px;
+    padding: 10px 12px;
+    gap: 10px;
+    width: 69px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #344563;
   }
 
   .menu-items3 {
     list-style-type: none;
-    width: 59px;
-    height: 20px;
+    padding: 10px 12px;
+    gap: 10px;
+    width: 83px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #344563;
   }
 
   .desktop-headline {
@@ -1243,11 +1210,6 @@
     align-items: center;
     padding: 160px 0;
     gap: 24px;
-    position: absolute;
-    width: 920px;
-    height: 756px;
-    left: 200px;
-    top: 72px;
   }
 
   .desktop-headline-first-text {
@@ -1313,7 +1275,8 @@
   }
 
   .btn2 {
-    position: absolute;
+    width: 40px;
+    height: 40px;
     background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 32px;
@@ -1330,13 +1293,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 0;
+    padding: 300px 0;
     gap: 48px;
-    position: absolute;
-    width: 1171px;
-    height: 1244px;
-    left: 135px;
-    top: 1059px;
+    width: 1440px;
   }
 
   .desktop-recent-works {
@@ -1357,6 +1316,7 @@
     line-height: 52px;
     text-align: center;
     color: #172b4d;
+    margin: 0;
   }
 
   .desktop-card-works {
@@ -1376,20 +1336,25 @@
     gap: 24px;
   }
 
-  .desktop-image-cover {
+  .desktop-card-1 {
     background: #ebf0ee;
     border: 1px solid #d0d9d4;
     border-radius: 8px;
+  }
+
+  .desktop-image-cover {
+    width: 332px;
+    height: 300px;
   }
 
   .desktop-text-card-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
+    padding: 16px;
     gap: 16px;
-    position: absolute;
-    top: 423px;
+    width: 300px;
+    height: 222px;
     background: #fff;
     border-radius: 8px;
   }
@@ -1425,17 +1390,14 @@
   }
 
   .desktop-button-frame {
-    width: 337px;
+    width: 100px;
     height: 69px;
   }
 
   .desktop-btn-green {
     color: white;
-    position: absolute;
     width: 122px;
     height: 48px;
-    left: 108px;
-    bottom: 8px;
     background: #36b37f;
     border-radius: 4px;
   }
@@ -1460,11 +1422,11 @@
   .desktop-text-card-2 {
     display: flex;
     flex-direction: column;
+    width: 300px;
+    height: 222px;
     align-items: center;
-    padding: 0;
+    padding: 16px;
     gap: 16px;
-    position: absolute;
-    top: 937px;
     background: #fff;
     border-radius: 8px;
   }
@@ -1476,11 +1438,8 @@
     justify-content: center;
     padding: 80px 0;
     gap: 48px;
-    position: absolute;
-    width: 1171px;
-    height: 808px;
-    left: 190px;
-    top: 2331px;
+    width: 1440px;
+    background: url('./images/desktop_version/frame_headline/illustration-about-me-2-desktop.png') 1% 24% no-repeat, url('./images/desktop_version/frame_headline/illustration-about-me-1-desktop.png') 99% 1% no-repeat;
   }
 
   .desktop-about-me-header {
@@ -1551,40 +1510,29 @@
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     padding: 4px 8px;
-    gap: 24px;
-    width: 1171px;
+    gap: 12px;
+    width: 1050px;
     height: 360px;
   }
 
   .desktop-language-cards {
-    position: absolute;
-    width: 330px;
-    height: 360px;
-  }
-
-  .desktop-placeholder {
-    width: 330px;
-    height: 360px;
+    width: 320px;
+    height: 300px;
     background: #ebf0ee;
     border: 1px solid #c1c7d0;
     border-radius: 8px;
-  }
-
-  .desktop-languages {
-    position: absolute;
-    top: 20px;
+    background-image: url('./images/mobile_version/Card/Img_Plaholder.png') 30% 30% no-repeat;
   }
 
   .desktop-languages-list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0;
+    justify-content: center;
+    padding-left: 16px;
     gap: 24px;
-    position: absolute;
-    width: 337px;
-    height: 140px;
-    bottom: 72px;
+    width: 300px;
+    height: 60px;
   }
 
   .desktop-languages-header {
@@ -1622,35 +1570,23 @@
   }
 
   .desktop-framework-cards {
-    position: absolute;
-    width: 330px;
-    left: 350px;
-    height: 360px;
-  }
-
-  .desktop-placeholder2 {
-    width: 330px;
-    height: 360px;
+    width: 320px;
+    height: 300px;
     background: #ebf0ee;
     border: 1px solid #c1c7d0;
     border-radius: 8px;
-  }
-
-  .desktop-framework-tags {
-    position: absolute;
-    top: 20px;
+    background-image: url('./images/mobile_version/Card/Img_Plaholder.png') 30% 30% no-repeat;
   }
 
   .desktop-frameworks-list {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 0;
     gap: 24px;
-    position: absolute;
     width: 337px;
-    height: 140px;
-    bottom: 72px;
+    height: 110px;
   }
 
   .desktop-framework-header {
@@ -1702,35 +1638,23 @@
   }
 
   .desktop-skills-cards {
-    position: absolute;
-    width: 330px;
-    height: 360px;
-    left: 700px;
-  }
-
-  .desktop-placeholder3 {
-    width: 330px;
-    height: 360px;
+    width: 320px;
+    height: 300px;
     background: #ebf0ee;
     border: 1px solid #c1c7d0;
     border-radius: 8px;
-  }
-
-  .desktop-skills-tags {
-    position: absolute;
-    top: 20px;
+    background-image: url('./images/mobile_version/Card/Img_Plaholder.png') 30% 30% no-repeat;
   }
 
   .desktop-skills-list {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 0;
     gap: 24px;
-    position: absolute;
     width: 337px;
-    height: 140px;
-    bottom: 72px;
+    height: 110px;
   }
 
   .desktop-skills-header {
@@ -1789,34 +1713,21 @@
     order: 0;
   }
 
-  .illustration-about-me-2 {
-    position: absolute;
-    width: 288.04px;
-    left: -150px;
-    top: 150px;
-  }
-
-  .illustration-about-me-1 {
-    position: absolute;
-    width: 269.55px;
-    left: 950px;
-    top: -20px;
-  }
-
   .desktop-form {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: center;
     padding: 80px 0;
     gap: 24px;
-    position: absolute;
-    width: 1171px;
+    width: 1440px;
     height: 490px;
-    left: 190px;
-    top: 3139px;
+    background: url('./images/desktop_version/frame_headline/illustration-1-contact-form-desktop.png') 0% 90% no-repeat, url('./images/desktop_version/frame_headline/illustration-2-contact-form-desktop.png') 20% 80% no-repeat, url('./images/desktop_version/frame_headline/contact-form-illustratoin-3-desktop.png') 95% 100% no-repeat;
   }
 
   .desktop-form-primary-text {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 0;
     gap: 24px;
@@ -1890,6 +1801,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
+    border: 1px solid #d0d9d4;
+    border-radius: 4px;
     line-height: 24px;
     color: #6b778c;
   }
@@ -1909,8 +1822,6 @@
     color: white;
     width: 122px;
     height: 48px;
-    left: 108px;
-    bottom: 8px;
     background: #36b37f;
     border-radius: 4px;
   }
@@ -1925,31 +1836,15 @@
     background-color: green;
   }
 
-  .contact-form-illustration-1 {
-    position: absolute;
-    width: 197.39px;
-    top: 300px;
-    left: -130px;
-  }
-
-  .contact-form-illustration-2 {
-    position: absolute;
-    width: 130.28px;
-    top: 450px;
-    left: 120px;
-  }
-
-  .contact-form-illustration-3 {
-    position: absolute;
-    width: 313.9px;
-    left: 1020px;
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .rect-42-image {
-    position: absolute;
     height: 1px;
     background: #dfe1e6;
-    top: 800px;
     width: 100%;
   }
 
@@ -1957,13 +1852,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 0;
-    position: absolute;
-    width: 200px;
-    height: 40px;
+    width: 1440px;
     gap: 20px;
-    left: 500px;
-    top: 900px;
   }
 
   .contact-form-social-media-icon > li {
