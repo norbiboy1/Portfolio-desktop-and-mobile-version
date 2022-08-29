@@ -322,9 +322,12 @@ body {
   gap: 8px;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: row;
   align-items: center;
+  display: block;
+}
+
+.list-languages > li {
+  float: left;
 }
 
 .ruby {
