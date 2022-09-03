@@ -14,6 +14,7 @@
     height: 92px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .time {
@@ -22,12 +23,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 24px;
   }
 
   .time-style {
     width: 54px;
-    height: 16px;
+    height: 21px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -36,6 +36,7 @@
     text-align: center;
     letter-spacing: -0.28px;
     color: #000;
+    padding-left: 21px;
   }
 
   .status-bars {
@@ -43,6 +44,7 @@
     height: 11.34px;
     margin-top: 14px;
     margin-bottom: 14px;
+    padding-right: 14.67px;
   }
 
   .hamburger-menu {
@@ -52,17 +54,19 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding-left: 24px;
   }
 
   .logo-placeholder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 114px;
-    height: 58px;
+    height: 48px;
+    padding-left: 10px;
   }
 
   .logo {
     width: 90px;
-    height: 28px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -74,10 +78,10 @@
   }
 
   .bars {
-    width: 40px;
-    height: 40px;
+    display: inline-block;
+    padding-right: 40px;
+    height: 50px;
     border-radius: 8px;
-    padding: 8px;
     border-style: none;
     background: white;
   }
@@ -86,13 +90,28 @@
     cursor: pointer;
   }
 
-  .unions {
+  .bar1 {
     width: 24px;
-    height: 24px;
+    height: 5px;
+    background: #28352f;
+    margin: 6px 0;
+    border: 1px solid #acb7c3;
   }
 
-  .bars:hover {
-    background-color: lightskyblue;
+  .bar2 {
+    width: 24px;
+    height: 5px;
+    background: #28352f;
+    margin: 6px 0;
+    border: 1px solid #acb7c3;
+  }
+
+  .bar3 {
+    width: 24px;
+    height: 5px;
+    background: #28352f;
+    margin: 6px 0;
+    border: 1px solid #acb7c3;
   }
 
   .headline {
@@ -109,7 +128,7 @@
     height: 648px;
     width: 399px;
     position: absolute;
-    background: url('./images/mobile_version/frames/Group-35.png') no-repeat, url('./images/mobile_version/frames/Frame.png') 100% 0% no-repeat, url('./images/mobile_version/frames/Group-38.png') 5% 15% no-repeat, url('./images/mobile_version/frames/Group-36.png') 100% 40% no-repeat, url('./images/mobile_version/frames/Group-37.png') 0% 77% no-repeat, url('./images/mobile_version/frames/Frame_2.png') 40% 73% no-repeat, url('./images/mobile_version/frames/Frame_3.png') 98% 95% no-repeat;
+    background: url('./images/mobile_version/frames/Group-35.png') no-repeat, url('./images/mobile_version/frames/Frame.png') 90% 0% no-repeat, url('./images/mobile_version/frames/Group-38.png') 5% 18% no-repeat, url('./images/mobile_version/frames/Group-36.png') 90% 44% no-repeat, url('./images/mobile_version/frames/Group-37.png') 0% 83% no-repeat, url('./images/mobile_version/frames/Frame_2.png') 40% 78% no-repeat, url('./images/mobile_version/frames/Frame_3.png') 93% 100% no-repeat;
   }
 
   .headline-section {
@@ -949,8 +968,6 @@
     width: 327px;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 
   input[type=email] {
@@ -958,8 +975,6 @@
     width: 327px;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 
   #message {
@@ -967,8 +982,6 @@
     width: 327px;
     border: 1px solid #60c095;
     border-radius: 4px;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 
   #name {
@@ -988,8 +1001,8 @@
     height: 132.37px;
     position: absolute;
     background: url('./images/mobile_version/frames/Frame-contact.png') no-repeat;
-    left: 409.63px;
-    top: 6500px;
+    left: 315px;
+    top: 6530px;
   }
 
   .social-media-icon {
@@ -1002,7 +1015,7 @@
     padding-top: 40px;
     padding-left: 0;
     margin: 0;
-    gap: 20px;
+    gap: 18px;
   }
 
   .social-media-icon > li {
@@ -1010,6 +1023,7 @@
   }
 
   .supporting-text-2 {
+    width: 375px;
     height: 189px;
     margin: 0;
     font-family: 'Inter', sans-serif;
@@ -1019,6 +1033,7 @@
     line-height: 32px;
     text-align: center;
     color: #42526e;
+    padding-top: 60px;
   }
 
   .contact-form button[type=submit]:hover {
@@ -1797,11 +1812,14 @@
     align-items: center;
     justify-content: center;
     padding: 0;
-    width: 2063px;
     gap: 20px;
   }
 
   .contact-form-social-media-icon > li {
     list-style-type: none;
+  }
+
+  .email-text {
+    display: none;
   }
 }
