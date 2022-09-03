@@ -1083,11 +1083,23 @@
     display: none;
   }
 
+  @keyframes background-images-animation {
+    0% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(2);
+    }
+  }
+
   .desktop-background-images {
     position: absolute;
     width: 1800px;
     height: 1434.3px;
     background: url('./images/desktop_version/frame_headline/Group-35.png') 40% 5% no-repeat, url('./images/desktop_version/frame_headline/Frame.png') 74% 1% no-repeat, url('./images/desktop_version/frame_headline/Group-38.png') 36% 8% no-repeat, url('./images/desktop_version/frame_headline/Group2.png') 1% 21% no-repeat, url('./images/desktop_version/frame_headline/Frame-big.png') 100% 17% no-repeat, url('./images/desktop_version/frame_headline/Group-37.png') 18% 58% no-repeat, url('./images/desktop_version/frame_headline/Frame-middle.png') 40% 50% no-repeat, url('./images/desktop_version/frame_headline/Frame-right.png') 75% 55% no-repeat;
+    transform: rotate(20deg);
+    animation: background-images-animation 3s ease-in-out;
   }
 
   .header {
